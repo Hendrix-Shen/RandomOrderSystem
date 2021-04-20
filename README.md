@@ -1,6 +1,6 @@
 # RandomOrderSystem
-#这是一个随机点名的程序 This is a random roll call procedure
-#它将可以实现多班点名,以及确保每名同学每节课只会被点到一次(至少在没有关闭软件是这样的)
+这是一个随机点名的程序 This is a random roll call procedure
+它将可以实现多班点名,以及确保每名同学每节课只会被点到一次(至少在没有关闭软件是这样的)
 #It will allow multiple classes to be called and ensure that each student is called only once per class (at least without turning off the software).
 #本程序将一直更新和修改(至少有bug作者会看,至于什么时候更新就不知道了)
 #The program will be updated and modified all the time (at least the author will read the bug, as to when the update does not know).
