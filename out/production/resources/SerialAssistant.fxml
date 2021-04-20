@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="430.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.XinSin.JavaFx.SerialAssistant">
+   <children>
+      <Label fx:id="ReturnName" layoutX="199.0" layoutY="33.0" prefHeight="66.0" prefWidth="111.0" text="name" />
+      <Button fx:id="fxid" layoutX="85.0" layoutY="42.0" mnemonicParsing="false" onAction="#evenButton" prefHeight="39.0" prefWidth="71.0" text="Button" textAlignment="CENTER" textFill="#ed0000" />
+   </children>
+</AnchorPane>
+<StackPane id="pane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml" fx:controller="demo.Sample">
+   <children>
+   </children>
+</StackPane>
