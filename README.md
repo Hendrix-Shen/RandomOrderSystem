@@ -19,5 +19,5 @@
 #This project is written in pure Java, with Swing as the GUI (it may change to JavaFX in the future)
 
 
-#本项目由XinSin提出并编写,Timicasto提供更改与优化,[Hendrix-Shen](https://github.com/Hendrix-Shen)提供思路与想法
+#本项目由[XinSin](https://github.com/XinSin-top)提出并编写,Timicasto提供更改与优化,[Hendrix-Shen](https://github.com/Hendrix-Shen)提供思路与想法
 #This project was proposed and written by Xinsin, with Timicasto providing changes and optimizations, and Hendrix-Shen providing ideas and ideas
