@@ -1,0 +1,7 @@
+#ignore directories
+gradle/
+out/
+test/
+
+#ignore files
+*.class
