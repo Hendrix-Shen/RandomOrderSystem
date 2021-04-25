@@ -2,16 +2,38 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<StackPane id="pane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml" fx:controller="top.XinSin.JavaFx.SerialAssistant">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.xinsin.JavaFx.SerialAssistant">
    <children>
-   </children>
-</StackPane>
-<AnchorPane prefHeight="430.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.XinSin.JavaFx.SerialAssistant">
-   <children>
-      <Label fx:id="ReturnName" layoutX="199.0" layoutY="33.0" prefHeight="66.0" prefWidth="111.0" text="name" />
-      <Button fx:id="fxid" layoutX="85.0" layoutY="42.0" mnemonicParsing="false" onAction="#evenButton" prefHeight="39.0" prefWidth="71.0" text="Button" textAlignment="CENTER" textFill="#ed0000" />
+      <MenuBar fx:id="Menu" prefHeight="29.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="Random" layoutX="14.0" layoutY="39.0" mnemonicParsing="false" onAction="#evenButton" prefHeight="59.0" prefWidth="103.0" text="Button" textFill="#3c5cb5">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label fx:id="ReturnName" layoutX="126.0" layoutY="39.0" prefHeight="77.0" prefWidth="399.0" text="Label" textFill="#15aec2">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
-
-

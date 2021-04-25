@@ -1,4 +1,4 @@
-package top.XinSin.util;
+package top.xinsin.util;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -28,7 +28,7 @@ public class StudentNameList implements Serializable {
             List.remove(value);
             return str;
         }catch (IllegalArgumentException e){
-            return "没有名字啦";
+            return "没有名字";
         }
     }
 }

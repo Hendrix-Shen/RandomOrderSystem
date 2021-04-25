@@ -1,8 +1,8 @@
-package top.XinSin.io;
+package top.xinsin.io;
 
-import top.XinSin.Enum.IO;
-import top.XinSin.util.StudentName;
-import top.XinSin.util.StudentNameList;
+import top.xinsin.Enum.IO;
+import top.xinsin.util.StudentName;
+import top.xinsin.util.StudentNameList;
 
 import java.io.*;
 import java.util.ArrayList;

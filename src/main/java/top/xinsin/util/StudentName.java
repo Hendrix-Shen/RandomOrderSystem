@@ -1,4 +1,4 @@
-package top.XinSin.util;
+package top.xinsin.util;
 
 public class StudentName{
     private String name;
